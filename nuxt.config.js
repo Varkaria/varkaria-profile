@@ -9,8 +9,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - varkaria-profile',
-    title: 'varkaria-profile',
+    titleTemplate: 'Varkaria',
+    title: 'Varkaria',
     htmlAttrs: {
       lang: 'en'
     },
