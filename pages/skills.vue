@@ -9,7 +9,7 @@
           <v-list flat class="mb-8" disabled>
             <v-list-item-group>
               <v-list-item
-                v-for="(item, i) in deprecated"
+                v-for="(item, i) in skills"
                 :key="i"
                 :href="item.percent"
               >
@@ -37,7 +37,7 @@
 <script>
 export default {
   data: () => ({
-    deprecated: [
+    skills: [
       {
         text: "HTML",
         color: 'blue',
@@ -54,7 +54,7 @@ export default {
         percent: 70
       },
       {
-        text: "Vue",
+        text: "Vue (Nuxt.js)",
         color: 'green',
         percent: 80
       },
@@ -70,8 +70,8 @@ export default {
       },
       {
         text: "Backend",
-        color: 'red',
-        percent: 50
+        color: 'yellow',
+        percent: 80
       }
     ]
   })

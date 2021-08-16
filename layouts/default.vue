@@ -5,6 +5,17 @@
         <v-tab v-for="(item, i) in items" :key="i" router exact :to="item.to">
           {{ item.title }}
         </v-tab>
+
+        <v-tab>
+          <a href="https://webring.wonderful.software#varkaria.tech" title="วงแหวนเว็บ">
+            <img
+              alt="วงแหวนเว็บ"
+              width="28"
+              height="28"
+              src="https://webring.wonderful.software/webring.white.svg"
+            />
+          </a>
+        </v-tab>
       </v-tabs>
     </v-app-bar>
     <v-main>
@@ -37,18 +48,17 @@ export default {
         {
           title: "Skills",
           to: "/skills",
-        }
+        },
       ],
     };
   },
 };
 </script>
 
-
 <style>
 #app {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(~assets/background.jpg)
-    no-repeat center center fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(~assets/background.jpg) no-repeat center center fixed !important;
   background-size: cover;
 }
 </style>
